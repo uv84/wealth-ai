@@ -4,6 +4,7 @@ import { PenBox, LayoutDashboard } from "lucide-react";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { checkUser } from "@/lib/checkUser";
+import { ThemeToggle } from "./theme-toggle";
 import Image from "next/image";
 
 const Header = async () => {
@@ -70,6 +71,7 @@ const Header = async () => {
               }}
             />
           </SignedIn>
+          {/* <ThemeToggle /> */}
         </div>
       </nav>
     </header>
