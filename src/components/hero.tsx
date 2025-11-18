@@ -85,7 +85,9 @@ const HeroSection = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
+            <Link href="/contact-us">
             <Button variant="link" className="flex items-center gap-2 rounded-2xl">Contact Us <ArrowRight size={13} /></Button>
+            </Link>
           </motion.div>
         </motion.div>
         
